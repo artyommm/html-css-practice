@@ -1,0 +1,63 @@
+.bebr{
+    color: red;
+}
+
+#chopa{
+    color: blue;
+}
+
+.heading,
+.text {
+    text-align: center;
+}
+
+.heading {
+    color: purple;
+}
+
+.text{
+    color: blue;
+    font-family: serif;
+}
+
+.back-grey{
+    background-color: grey;
+}
+
+/*input[type="text"] */
+.input {
+    color: fuchsia;
+}
+
+.block{
+    width: 30%;
+    height: 500px;
+    border: 1px solid #000;
+    background-color: #ccc;
+    background-image: url(img/dog.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.list{
+    list-style-type: none;
+}
+
+ul li a{ /*контекстный селектор*/
+    color: green;
+}
+
+/*ul > li*/
+/* > - обращение к дочернему элементу*/
+.menu > .menu__list {  /*но лучше всего просто использовать класс menu__list*/
+    border: 1px solid #000;
+}
+
+/* + - обращение к соседу*/
+.list + .abcd { /*но лучше всего просто использовать класс abcd*/
+    text-transform: lowercase;
+}
