@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+
+.top {
+    border: 1px solid darkred;
+    margin: 0;
+    height: 500px;
+}
+
+.top__content{
+    border: 2px solid purple;
+    margin: 0 70px;
+}
+
+.menu{
+    border: 2px solid green;
+
+}
+
+.top__info{
+    border: 2px solid lightskyblue;
+}
+
+.cardcontent{
+    border: 2px solid purple;
+    margin: 0 70px;
+}
+
+.cards{
+    border: 2px solid green;
+    margin: 70px 0;
+    #display: inline;
+}
+
+.card{
+    height: 400px;
+    width: 300px;
+    margin: 20px 0;
+    border: 2px solid deeppink;
+    display: inline-flex;
+}

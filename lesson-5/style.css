@@ -1,0 +1,15 @@
+body{
+    text-align: center;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+
+}
+
+.block-1{
+    /*display: none; !*не добавляет элемент*!*/
+    visibility: hidden; /*скрывает элемент*/
+}

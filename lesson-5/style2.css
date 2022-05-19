@@ -1,0 +1,37 @@
+.header{
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /*выставляет элемент по центру*/
+}
+
+.logo{
+    width: 35px;
+    height: 25px;
+    background-color: darkred;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around; /*space-between*/
+    /*height: 200px;*/
+    /*align-items: center;*/
+    /*background-color: #ccc;*/
+
+}
+
+.block{
+    /*EMMET: w100+h50+bd+*/
+    width: 100px;
+    height: 150px;
+    border: 1px solid #000;
+}

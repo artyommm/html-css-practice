@@ -1,0 +1,114 @@
+.header{
+    background-color: #ccc;
+}
+
+.footer{
+    background-color: grey;
+    clear: both;
+}
+
+.text-red{
+    color: red;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.block{
+    border: 1px solid #000;
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding: 48px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.heading{
+    margin-top: 50px;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+/*.menu{*/
+/*    clear: both;*/
+/*}*/
+
+
+.menu__list{
+    clear: both;
+    list-style-type: disc;
+    border: 1px solid #000;
+    width: 200px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+/*псевдоклассы*/
+.menu__list:hover{
+    background-color: #5A98D0;
+    color: red;
+}
+
+.menu__link:active {
+    color:green;
+}
+
+.menu__list:first-child{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.menu__list:last-child{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.menu__list:hover .menu__link{
+    text-decoration: none;
+}
+
+/*псевдоэлементы*/
+
+/*.menu__li_new:after{*/
+/*    content: ' super new';*/
+/*    color: red;*/
+/*}*/
+
+/*.menu__li:nth-child(3)::after{*/
+/*    content: ' super new';*/
+/*    color: red;*/
+/*}*/
+
+.menu__li:hover::after{
+    content: ' <- you are here bro, you want to click!'
+}
+
+.menu__li:before{
+    content: ' bebra ';
+    color: orange;
+}
+
+.product{
+    width: 250px;
+    border: 1px solid #000;
+}
+
+.product__img{
+    height: 150px;
+    background-color: forestgreen;
+}
+
+.product_new:after{
+    content: 'new';
+    text-transform: uppercase;
+}
+
+.text::first-letter{
+    color: red;
+    font-size: 24px;
+}
