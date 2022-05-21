@@ -1,0 +1,73 @@
+.container{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.header{
+    border: 1px solid #000;
+    height: 150px;
+    position: relative;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    background-color: forestgreen;
+    position: absolute; /* лого позиционируется относительно хэдера*/
+    top: 50px;
+    left: 60px;
+}
+
+.block{
+    width: 150px;
+    height: 150px;
+    border: 1px solid #000;
+    float: left;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+}
+
+.item{
+    width: 105px;
+    height: 105px;
+    background-color: forestgreen;
+    position: absolute;
+}
+
+.item-2{
+    background-color: orange;
+    top: 50px;
+    left: 50px;
+    z-index: -1; /*ось z*/
+    display: none;
+}
+
+.item-3{
+    background-color: darkblue;
+    top: 100px;
+    left: 100px;
+    z-index: -2;
+}
+
+.content{
+    position: relative;
+}
+
+.content:hover .item-2{
+    z-index: 1;
+    display: block;
+}
+
+.blocker{
+    height: 350px;
+    border: 1px solid #000;
+    position: relative;
+}
+
+.itemm{
+    background-color: gray;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}

@@ -1,0 +1,24 @@
+.content{
+    display: flex;
+    /*flex-wrap: wrap; !*перенос блока*!*/
+    /*justify-content: space-around;*/
+    /*flex-direction: column-reverse;*/
+    /*align-items: center;*/
+    height: 200px;
+    background-color: #ccc;
+    justify-content: space-around;
+}
+
+.block{
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.block-2{
+    align-self: center;
+}
+
+.block-3{
+    align-self: flex-end;
+}

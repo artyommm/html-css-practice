@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.top{
+    height: 768px;
+    background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);;
+}
+
+.header{
+    padding-top: 42px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.top__info{
+    flex-grow: 1;
+    padding-top: 115px;
+    height: 100%;
+    background-image: url(../img/top-bg.png);
+    background-repeat: no-repeat;
+    background-position: right 115px;
+}
+
+.top__box{
+    display: flex;
+    flex-direction: column;
+}
+
+.top__button{
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    padding: 15px 50px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 71px;
+}
+
+.top__heading{
+    width: 510px;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 74px;
+    color: #1F3F68;
+    letter-spacing: 0.04em;
+    margin-bottom: 32px;
+}
+
+.text{
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    letter-spacing: 0.05em;
+    opacity: 0.6;
+}
+
+.top__text{
+    width: 425px;
+}
+
+.link{
+    /*display: inline-block;*/
+    border: 1px solid #000;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.main_header{
+    border: 1px solid #000;
+    width: 510px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content__text{
+    width: 425px;
+    margin: 0 auto;
+}
+
+.header3{
+    text-align: center;
+    font-size: 36px;
+}
+
+.card-box{
+    border: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    border: 1px solid #000;
+    width: 359px;
+}
+.interested-to-woek{
+    border: 1px solid #000;
+}
+
+.interested-to-woek h3{
+    border: 1px solid #000;
+    width: 340px;
+}
+
+.interested-to-woek p{
+    border: 1px solid #000;
+    width: 495px;
+}
+
+.contacts{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+.contacts li{
+    border: 1px solid #000;
+}
+
+.all-rights-reserved{
+    border: 1px solid #000;
+}
+
+
