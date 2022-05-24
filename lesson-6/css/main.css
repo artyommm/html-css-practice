@@ -61,6 +61,15 @@ body{
     color: #1F3F68;
     letter-spacing: 0.04em;
     margin-bottom: 32px;
+
+}
+
+.what-we-do{
+    padding-top: 64px;
+}
+
+.card-box{
+    padding-top: 64px;
 }
 
 .text{
@@ -69,10 +78,41 @@ body{
     color: #1F3F68;
     letter-spacing: 0.05em;
     opacity: 0.6;
+
+}
+
+.text_project{
+    width: 75%;
+    color: #222222;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 32px auto 64px auto;
+    text-align: center;
+    letter-spacing: 0.05em;
+    opacity: 1;
 }
 
 .top__text{
     width: 425px;
+}
+
+.heading{
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 46px;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+}
+
+.heading-mini{
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    margin-bottom: 14px;
 }
 
 .link{
@@ -91,6 +131,47 @@ body{
     text-align: center;
 }
 
+.project{
+
+}
+
+.project__item{
+    position: relative;
+    flex-grow: 1;
+}
+
+.project__item_margin{
+    margin-right: 32px;
+}
+
+.project__img{
+    width: 100%;
+}
+
+.project__parent{
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__text{
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+}
+
+.project__text_left{
+    text-align: left;
+    left: 32px;
+    top: 64px;
+    right: 0;
+}
+
 .content__text{
     width: 425px;
     margin: 0 auto;
@@ -102,40 +183,135 @@ body{
 }
 
 .card-box{
-    border: 1px solid #000;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 64px;
 }
 
 .card{
-    border: 1px solid #000;
     width: 359px;
-}
-.interested-to-woek{
-    border: 1px solid #000;
+    height: 480px;
+    background: #FFFFFF;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 44px 32px;
+    display: flex;
+    flex-direction: column;
 }
 
-.interested-to-woek h3{
-    border: 1px solid #000;
-    width: 340px;
+.card__link{
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #5A98D0;
+    text-decoration: none;
 }
 
-.interested-to-woek p{
-    border: 1px solid #000;
-    width: 495px;
+.card__img{
+    align-self: center;
+    margin-bottom: 51px;
+}
+
+.card__img_rock{
+    height: 183px;
+    margin-bottom: 20px;
 }
 
 .contacts{
-    list-style-type: none;
+
+    margin-top: 64px;
     display: flex;
     justify-content: space-around;
 }
 .contacts li{
-    border: 1px solid #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
 }
 
 .all-rights-reserved{
-    border: 1px solid #000;
+    margin-top: 64px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;
 }
 
+.footer{
+    padding: 91px 113px;
+    margin-top: 112px;
+    background: #316099;
+}
 
+.text__footer{
+
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    width: 495px;
+}
+
+.footer__heading{
+    width: 340px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.lets_talk__btn:active{
+    text-decoration: none;
+}
+
+.lets_talk__btn{
+    background: #5A98D0;
+    text-decoration: none;
+    display: flex;
+    width: 237px;
+    height: 56px;
+    text-align: center;
+
+    padding: 15px 80px;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.footer__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.interested-to-work{
+    display: flex;
+    flex-direction: column;
+}
+
+/*.interested-to-work p{*/
+
+/*}*/
+.contacts_text-li{
+    width: 317px;
+}
+
+.line{
+    margin-top: 96px;
+    opacity: 0.4;
+}
+
+.pepe_img{
+    width: 320px;
+}
